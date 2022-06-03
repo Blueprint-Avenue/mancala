@@ -1,4 +1,5 @@
-import {Search} from "@material-ui/icons";
+import {Search, ShoppingCartOutlined} from "@material-ui/icons";
+import {Badge} from "@material-ui/core";
 import React from "react";
 import styled from "styled-components";
 
@@ -9,12 +10,22 @@ const Navbar = () => {
 				<Left>
 					<Language>EN</Language>
 					<SearchContainer>
-						<input type="text" />
-						<Search />
+						<Input />
+						<Search style={{color: "#F0C929", fontSize: 16}} />
 					</SearchContainer>
 				</Left>
-				<Center>Center</Center>
-				<Right>Right</Right>
+				<Center>
+					<Logo>MANCALA.</Logo>
+				</Center>
+				<Right>
+					<MenuLink>REGISTER</MenuLink>
+					<MenuLink>SIGN IN</MenuLink>
+					<MenuLink>
+						<Badge badgeContent={4} color="primary">
+							<ShoppingCartOutlined />
+						</Badge>
+					</MenuLink>
+				</Right>
 			</Wrapper>
 		</Container>
 	);
@@ -29,6 +40,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
 	padding: 10px 20px;
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 `;
 
@@ -47,11 +59,34 @@ const SearchContainer = styled.div`
 	border: 1px solid #ac0d0d;
 	display: flex;
 	align-items: center;
+	margin-left: 25px;
+	padding: 5px;
+`;
+
+const Input = styled.input`
+	border: none;
+	outline: none;
 `;
 
 const Center = styled.div`
 	flex: 1;
+	text-align: center;
 `;
+
+const Logo = styled.h1`
+	font-weight: bold;
+	color: #ac0d0d;
+`;
+
 const Right = styled.div`
 	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+`;
+
+const MenuLink = styled.div`
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: 25px;
 `;
