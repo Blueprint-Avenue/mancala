@@ -47,37 +47,37 @@ export const categories = [
 	},
 ];
 
-export const popularProducts = [
+export const products = [
 	{
 		id: 1,
-		img: "https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+		img: "https://us.balmain.com/dw/image/v2/BHGX_PRD/on/demandware.static/-/Sites-balmain-mastercatalog/default/dwb33cdb1e/images/hi-res/YH1JQ005BB33MDDF.png?sw=375&sh=530",
 	},
 	{
 		id: 2,
-		img: "https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+		img: "https://assets.bigcartel.com/product_images/181128317/Blue_Ferragamo.png?auto=format&fit=max&h=1000&w=1000",
 	},
 	{
 		id: 3,
-		img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+		img: "https://us.balmain.com/dw/image/v2/BHGX_PRD/on/demandware.static/-/Sites-balmain-mastercatalog/default/dw459fc434/images/hi-res/WF1LB005K272GABF.png?sw=375&sh=530",
 	},
 	{
 		id: 4,
-		img: "https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+		img: "https://media.vogue.co.uk/photos/61efd308b4ea23c10714699d/master/w_1280%2Cc_limit/gucci1.png",
 	},
 	{
 		id: 5,
-		img: "https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+		img: "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton--P00761_PM2_Front%20view.png",
 	},
 	{
 		id: 6,
-		img: "https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+		img: "https://cdn.shopify.com/s/files/1/2974/2654/products/gucci_shirt_navy_900x.png?v=1613498377",
 	},
 	{
 		id: 7,
-		img: "https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+		img: "https://cdn.shopify.com/s/files/1/0034/8500/7936/products/DynamicImageHandler_1dcd9364-fdd5-4e1b-8742-a0ca78caa7fc.png",
 	},
 	{
 		id: 8,
-		img: "https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+		img: "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%2F633af9f0-2a8a-11e9-a5ab-ff8ef2b976c7?fit=scale-down&source=next&width=700",
 	},
 ];

@@ -19,7 +19,7 @@ const Slider = () => {
 			</Arrow>
 			<Wrapper slideIndex={slideIndex}>
 				{sliderItems.map((item) => (
-					<Slide bg={item.bg}>
+					<Slide key={item.id} bg={item.bg}>
 						<ImageContainer>
 							<Image src={item.img} />
 						</ImageContainer>
@@ -91,6 +91,7 @@ const Button = styled.button`
 	padding: 10px;
 	font-size: 20px;
 	background-color: transparent;
+	color: #ac0d0d;
 	cursor: pointer;
 `;
 
