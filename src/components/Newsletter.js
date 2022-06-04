@@ -21,7 +21,7 @@ export default Newsletter;
 
 const Container = styled.div`
 	height: 60vh;
-	background-color: #f48b29;
+	background-color: #f0c929;
 	display: flex;
 	align-items: center;
 	justify-content: center;

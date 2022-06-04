@@ -9,7 +9,7 @@ export default Announcement;
 
 const Container = styled.div`
 	height: 30px;
-	background-color: #f48b29;
+	background-color: #f0c929;
 	color: white;
 	display: flex;
 	align-items: center;
