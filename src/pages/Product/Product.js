@@ -5,6 +5,7 @@ import Footer from "../../components/Footer";
 import Announcement from "../../components/Announcement";
 import Newsletter from "../../components/Newsletter";
 import {Add, Remove} from "@material-ui/icons";
+import {mobile} from "../../Responsive";
 
 const Product = () => {
 	return (
@@ -22,7 +23,7 @@ const Product = () => {
 						seen.
 					</Desc>
 					<Price>$ 450</Price>
-					<FilterConatainer>
+					<FilterContainer>
 						<Filter>
 							<FilterTitle>Color</FilterTitle>
 							<FilterColor color="red" />
@@ -39,7 +40,7 @@ const Product = () => {
 								<FilterSizeOption>XL</FilterSizeOption>
 							</FilterSize>
 						</Filter>
-					</FilterConatainer>
+					</FilterContainer>
 					<AddContainer>
 						<AmountContainer>
 							<Remove />
@@ -63,6 +64,7 @@ const Container = styled.div``;
 const Wrapper = styled.div`
 	padding: 50px;
 	display: flex;
+	${mobile({padding: "10px", flexDirection: "column"})}
 `;
 
 const ImgContainer = styled.div`
@@ -78,6 +80,7 @@ const Image = styled.img`
 const InfoContainer = styled.div`
 	flex: 1;
 	padding: 0px 50px;
+	${mobile({padding: "10px"})}
 `;
 
 const Title = styled.h1`
@@ -95,11 +98,12 @@ const Price = styled.span`
 	font-size: 40px;
 `;
 
-const FilterConatainer = styled.div`
+const FilterContainer = styled.div`
 	width: 50%;
 	display: flex;
 	justify-content: space-between;
 	margin: 30px 0px;
+	${mobile({width: "100%"})}
 `;
 
 const Filter = styled.div`
@@ -133,6 +137,7 @@ const AddContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	${mobile({width: "100%"})}
 `;
 
 const AmountContainer = styled.div`

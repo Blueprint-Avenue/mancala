@@ -1,6 +1,7 @@
 import {Send} from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
+import {mobile} from "../Responsive";
 
 const Newsletter = () => {
 	return (
@@ -38,6 +39,7 @@ const Description = styled.div`
 	font-weight: 300;
 	margin-bottom: 20px;
 	color: #fbe6c2;
+	${mobile({textAlign: "center"})}
 `;
 const InputContainer = styled.div`
 	width: 50%;
@@ -46,6 +48,7 @@ const InputContainer = styled.div`
 	display: flex;
 	justify-content: space-between;
 	border: 1px solid #fbe6c2;
+	${mobile({width: "80%"})}
 `;
 const Input = styled.input`
 	border: none;
